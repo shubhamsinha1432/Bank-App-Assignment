@@ -36,13 +36,11 @@ public class ActionImpl implements Actions{
 	public void transfer(double amount,int accountNumber) {
 		if(balance>amount) {
 			balance = balance - amount;
-			System.out.println("RS."+amount+" Money transfered successfully to Account Number : "+accountNumber);
+			System.out.println("RS."+amount+" Money has transfered successfully to Account No. : "+accountNumber);
 		}else {
 			System.out.println("Insufficient balance please refill your account");
 		}
 		
 	}
-
-	
 
 }

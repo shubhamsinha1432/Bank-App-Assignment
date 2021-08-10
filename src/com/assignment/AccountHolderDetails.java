@@ -1,14 +1,14 @@
 package com.assignment;
 
 public class AccountHolderDetails {
-	
+
 	private int id;
 	private String name;
 	private int age;
 	private int salary;
 	private String email;
 	private int phoneNo;
-	
+
 	public AccountHolderDetails(int id, String name, int age, int salary, String email, int phoneNo) {
 		super();
 		this.id = id;
@@ -42,6 +42,5 @@ public class AccountHolderDetails {
 	public int getPhoneNo() {
 		return phoneNo;
 	}
-	
 
 }
